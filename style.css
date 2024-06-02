@@ -11,7 +11,43 @@
     padding-bottom: 40px !important;
     margin-top: 40px !important;
     position: relative;
-    height: 200px;
+    /* height: 200px; */
+  }
+  .container{
+    background-color: white;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    padding-top: 50px;
+    min-height: 100vh;
+    height: 100%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  .container h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+  }
+  #inputField{
+    width: 60%;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    outline: none;
+    padding-left: 10px;
+  }
+  #btn{
+    background-color: #05677a;
+    border: none;
+    width: 140px;
+    height: 50px;
+    color: white;
+    font-weight: bolder;
+  }
+  #btn:hover{
+    background-color: #0DCAF0;
   }
 .row{
     gap: 30px;
@@ -34,6 +70,9 @@
   position: absolute;
   right: 40px;
   bottom: 0px;
+  background-color: #05677a;
+  border: none;
+  color: white;
 }
 .button:hover{
   background-color: black;
@@ -47,12 +86,28 @@
   position: absolute;
   right: 10px;
   bottom: 0px;
+    background-color: #05677a;
+  border: none;
+  color: white;
 }
 .button1:hover{
   background-color: black !important;
   color: white;
 }
 .saveBtn{
-    background-color: black;
-    color: white;
+  background-color: #05677a;
+  border: none;
+  color: white;
+  width: 80px;
+  height: 40px;
+}
+.saveBtn:hover{
+  background-color: black !important;
+  color: white;
+}
+.inputWala{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }

@@ -1,5 +1,5 @@
   let body = document.getElementsByTagName('body')
-  body[0].style.backgroundColor = '#631A86'
+  body[0].style.backgroundColor = '#0DCAF0'
   let btn = document.getElementById('btn')
     let i = 1
     btn.addEventListener('click', () => {
